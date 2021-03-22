@@ -26,8 +26,11 @@
     background-color: cadetblue;
     width: 100%;
 }
-/* end Contain */
 
+.footer{
+    height: 120px;
+    background-color: darkgrey;
+}
 
 .title{
     height: 150px;
@@ -37,18 +40,65 @@
     color: #ffffff;
 }
 
+/* end Contain */
+
+/* Card */
+
 .card{
     width: 24%;
-    height: 330px;
+    height: 500px;
     border-radius: 1rem;
-    background-color: coral;
     float: left;
-    display: inline-block;
     margin: 2% 0.5%;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-position: center;
 }
 
-.footer{
-    height: 120px;
-    background-color: darkgrey;
+.card:hover{
+    background-color: #ffffff;
+    cursor: pointer;
 }
 
+.card_txt{
+    font-size: 2rem;
+    position: absolute;
+}
+/* endCard */
+
+
+.submarine:hover{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-repeat: no-repeat;
+    color: #3a3acc;
+}
+
+.baloon:hover{
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-repeat: no-repeat;
+    color: #e61986;
+}
+
+.ship:hover{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-repeat: no-repeat;
+    color: #13155e;
+}
+
+.tractor:hover{
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-repeat: no-repeat;
+    color: #e67919;
+}
+
+.bicycle:hover{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-repeat: no-repeat;
+    color: #42f282;
+}
+
+.tram:hover{
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-repeat: no-repeat;
+    color: #cc4949;
+}
