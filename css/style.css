@@ -6,6 +6,45 @@
     padding: 0;
 }
 
-
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* end Utility */
+
+/* Contain */
+
+.page_contain{
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+}
+
+.cards_contain{
+    background-color: cadetblue;
+    width: 100%;
+}
+/* end Contain */
+
+
+.title{
+    height: 150px;
+    background-color: burlywood;
+}
+
+.card{
+    width: 21.87%;
+    height: 220px;
+    border-radius: 1rem;
+    background-color: coral;
+    float: left;
+    margin: 1rem 0.8rem;
+}
+
+.footer{
+    height: 120px;
+    background-color: darkgrey;
+}
+
