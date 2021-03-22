@@ -1,4 +1,4 @@
-/* Utility */   
+/* Utility */ 
 
 *{
     box-sizing: border-box;
@@ -14,33 +14,26 @@
 
 /* end Utility */
 
-/* Contain */
 
+/* Contain */
 .page_contain{
     width: 80%;
-    height: 1200px;
     margin: auto;
-}
-
-.cards_contain{
-
 }
 
 .footer{
     font-size: 1.6rem;
-    text-align: center;
-    
+    padding-bottom: 1rem;
 }
 
 .title{
     height: 150px;
-    text-align: center;
     line-height: 150px;
     font-size: 5rem;
     color: #ffffff;
 }
-
 /* end Contain */
+
 
 /* Card */
 
@@ -53,6 +46,8 @@
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-position: center;
+    position: relative;
+    left: 0;
 }
 
 .card:hover{
@@ -62,11 +57,16 @@
 
 .card_txt{
     font-size: 2.3rem;
-    position: relative;
-    top: 440px;
-    padding-left: 110px;
+    opacity: 0;
+    padding-top: 440px;
 }
+
+.card:hover h2{
+    opacity: 1;
+}
+
 /* endCard */
+
 
 
 /* Image hover */
