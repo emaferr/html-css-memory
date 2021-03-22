@@ -23,13 +23,13 @@
 }
 
 .cards_contain{
-    background-color: cadetblue;
-    width: 100%;
+
 }
 
 .footer{
-    height: 120px;
-    background-color: darkgrey;
+    font-size: 1.6rem;
+    text-align: center;
+    
 }
 
 .title{
@@ -61,11 +61,15 @@
 }
 
 .card_txt{
-    font-size: 2rem;
-    position: absolute;
+    font-size: 2.3rem;
+    position: relative;
+    top: 440px;
+    padding-left: 110px;
 }
 /* endCard */
 
+
+/* Image hover */
 
 .submarine:hover{
     background-image: url(../img/noun_Submarine_3134738.png);
@@ -102,3 +106,5 @@
     background-repeat: no-repeat;
     color: #cc4949;
 }
+
+/* end Image hover */
