@@ -6,11 +6,11 @@
     padding: 0;
 }
 
-.clearfix::after{
+/* .clearfix::after{
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* end Utility */
 
@@ -35,12 +35,16 @@
 }
 
 .card{
-    width: 21.87%;
+    width: 21.5%;
     height: 220px;
     border-radius: 1rem;
     background-color: coral;
-    float: left;
-    margin: 1rem 0.8rem;
+    /* float: left; */
+    /* margin: 1rem 0.8rem; */
+    position: relative;
+    left: 0;
+    display: inline-block;
+    margin: 1.2rem 0.8rem;
 }
 
 .footer{
