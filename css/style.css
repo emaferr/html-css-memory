@@ -36,6 +36,7 @@
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-position: center;
+    box-shadow: 2px 2px 4px #424242;
 }
 
 .card_txt{
