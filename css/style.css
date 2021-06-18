@@ -14,7 +14,7 @@
 
 /* Contain */
 .page_contain{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 /* end Contain */
@@ -29,7 +29,7 @@
 /* Card */
 .card{
     width: 24%;
-    height: 550px;
+    height: 450px;
     border-radius: 1rem;
     float: left;
     margin: 2% 0.5%;
@@ -42,7 +42,7 @@
 .card_txt{
     font-size: 2.3rem;
     display: none;
-    padding-top: 460px;
+    padding-top: 370px;
 }
 
 .card:hover{
